@@ -1,4 +1,4 @@
-# Yolom
+# Yolomy
 #### It's a website of a company for online shopping, 1/5/2019.
 #### By **ANUM ASIF**
 ## Description
@@ -9,7 +9,7 @@ It's a clone of a website called Yolomy that shows the clothline fashion of the 
 To access this project on your local machine, you can clone it using these steps
 
 1. Open your terminal
-2. Use this command `$ git clone https://github.com/hamida-mstafa/yollomy
+2. Use this command `$ git clone https://github.com/AnumAsif/yollomy
 
 ### Development
 Want to contribute? Great!
