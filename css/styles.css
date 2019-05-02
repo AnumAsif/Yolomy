@@ -59,27 +59,6 @@ input {
 input[type="checkbox"] {
   margin-left: 50px;
 }
-
-/* #checkbox{
-    padding:25px;
-    background-color: rgb(189, 181, 165);
-    width:100%;
-    height:100px;
-    
-}
-input{
-    font-size:20px;
-    margin-left:20px;
-    padding:20px;
-}
-#button{
-    float:right;
-    background-color: brown;
-    border: none;
-    padding:10px;
-    color:white;
-    font-size:10px;
-} */
 .container-fluid{
     padding-left: 0rem;
     padding-right: 0rem;
@@ -89,36 +68,6 @@ input{
 form{
     width:100%;
 }
-/* nav{
-    width: 100%;
-    padding-top:40px;
-}
-     */
-/* .logo {
-    display: inline-block;
-    padding-right:0rem;
-}  
-.nav-links {
-    list-style: none;
-}
-.nav-item a {
-    display: inline-block;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.navbar{
-    z-index: 10;
-    display: flex;
-    justify-content:space-between;
-    
-    align-items: center;
-}
-.nav-links{
-    display:flex;
-} */
-
 .about{
     color:white;
     margin-top: 15%;
@@ -160,44 +109,40 @@ h1 {
     margin:1rem 1;
 }
 .item-div{
-    /* width:25%; */
-    height:auto;
+    /* width:100%; */
     background-color: rgb(231, 232, 233);
     margin:0 auto;
     margin:30px;
-    height:35vh;
+    height:30%;
     padding-top:2vh;
     
     /* margin-left:20px; */
 }
-
+#aboutUs{
+    overflow: hidden;
+}
 #aboutusImg{
     z-index:-1;
-    position: absolute;
+    /* position: absolute; */
     margin:0 auto;
     /* padding-top: 50vh; */
     width:100%;
     height: auto;
 
+
 }
 #about{
-    position:relative;
+    /* position:relative; */
     text-align: center;
     padding-top: 7vw;
     color:white;
     font-size:1.5vw;
-    margin-bottom: 50px;
+    padding-bottom: 7vw;
     /* display: inline-block; */
    
     /* z-index: 3; */
 }
-.image {
-    /* height: 270px; */
-    /* width: 200px; */
-    /* padding: 20px; */
-    /* float: left; */
-    /* background-color: #DCDCDC; */
-  }
+
   
 .child{
     /* padding:40px; */
@@ -208,25 +153,60 @@ h1 {
 .child h1{
     font-size:2.5vw;
 }
-#sale{
-    width:100%;
-    height:50px;
-    background-color:#535154;
-}
+
 #item-top{
     display: block;
 }
 #item{
+    /* position: absolute; */
     text-align: left;
+    bottom: 0;
 }
 span{
-    float:right;
+    float: right;
 }
-.image{
-    margin-top:10px;
-    margin-bottom:10px;
+.image {
+    height: 270px;
+    width: 200px;
+    padding: 20px;
+    /* float: left; */
+    /* background-color: #DCDCDC; */
+  }
+  .container{
+      margin-top:50px;
+  }
+.women-div .pageNo{
+    clear:right;
+}  
+.men-div .pageNo{
+    clear:left;
 }
 .pageNo p{
     line-height: 0.2cm;
     font-size: 20px;
+}
+#sale{
+    /* clear:both; */
+    width:100%;
+    height:50px;
+    background-color:#535154;
+    margin-top: -25px;
+    
+    bottom:0;
+    color:white;
+    font-size: 1vw;
+    padding-left:50px;
+    padding-top:8px;
+    /* text-align: center; */
+    /* position:fixed; */
+}
+.footer{
+    color:white;
+    background-color: #414141;
+    text-align: center;
+
+}
+#footer_middle_bottom, #footermidtop, #`footer_bottom{
+    margin-top:30px;
+    bottom:0;
 }
